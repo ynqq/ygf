@@ -1,0 +1,55 @@
+genFolder: ./src
+genkey: demo.tsx
+folderConfig:
+  alarm-manage:
+    label: 报警管理
+    key: AlarmManage
+    folders:
+      process-param-alarm-manage:
+        label: 工艺参数报警管理
+        key: ProcessParamAlarmManage
+      gds-alarm-manage:
+        label: GDS报警管理
+        key: GdsAlarmManage
+      interlocking-cut-off-manage:
+        label: 联锁切除管理
+        key: InterlockingCutOffManage
+  online-monitoring:
+    label: 在线监测
+    key: OnlineMonitoring
+    folders:
+      monitoring-of-process-alarms:
+        label: 工艺报警实时监测
+        key: MonitoringOfProcessAlarms
+      gds-alarm-monitoring:
+        label: GDS报警实时监测
+        key: GdsAlarmMonitoring
+      monitoring-of-safety:
+        label: 安全联锁实时监测
+        key: MonitoringOfSafety
+      video-surveillance:
+        label: 视频监控
+        key: VideoSurveillance
+  safety-responsibilities:
+    label: 安全包保责任履职
+    key: SafetyResponsibilities
+    folders:
+      warranty-info:
+        label: 包保责任信息
+        key: WarrantyInfo
+      performance-records:
+        label: 履职记录
+        key: PerformanceRecords
+      hazard-manage:
+        label: 隐患管理
+        key: HazardManage
+  report-Manage:
+    label: 评价评估报告管理
+    key: ReportManage
+    folders:
+      safety-reports:
+        label: 安全评价报告管理
+        key: SafetyReports
+      sil-reports:
+        label: SIL等级评估报告
+        key: SILReports

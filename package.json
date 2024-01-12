@@ -1,0 +1,22 @@
+{
+  "name": "yaml-generate-file",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ygf": "bin/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "yaml": "^2.3.4"
+  },
+  "dependencies": {
+    "commander": "^11.1.0"
+  }
+}
